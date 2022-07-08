@@ -12,11 +12,13 @@ function Logout() {
     }
     return (
         <>
+            <div className="container">
             <Card className="containlogout">
                 <h3>WELCOME</h3>
                 <span>You have successfully logged in!!!</span><br />
                 <button class="btn btn-success log" onClick={handleLogout}>Logout</button>
             </Card>
+            </div>
         </>
     )
 }
