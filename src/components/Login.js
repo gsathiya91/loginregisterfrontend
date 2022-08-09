@@ -17,7 +17,7 @@ function Login(){
         e.preventDefault();
         
         try {
-            const response = await axios.post("https://loginandregisterproject.herokuapp.com/login",{
+            const response = await axios.post("https://register-login-using-mern.herokuapp.com/login",{
                 userName: userName,
                 password: password
             })

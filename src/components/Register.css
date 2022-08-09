@@ -39,5 +39,6 @@ span.text{
     margin-top:16px;
 }
 .h1, .h2, .h3, h1, h2, h3{
-    margin-top:0px;
+    margin-top:20px;
+    color:rgb(13, 4, 9);
 }

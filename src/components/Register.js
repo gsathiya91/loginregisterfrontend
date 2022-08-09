@@ -16,7 +16,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("https://loginandregisterproject.herokuapp.com/register", {
+            const response = await axios.post("https://register-login-using-mern.herokuapp.com/register", {
                 userName,
                 email,
                 password
@@ -30,7 +30,7 @@ function Register() {
     return (
         <>
             <div className="container">
-                <h2>Register</h2>
+                <h2>Create an Account</h2>
                 <Card className="form">
                     <form onSubmit={handleSubmit}>
                         <div class="form-group">
